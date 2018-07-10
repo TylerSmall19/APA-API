@@ -8,7 +8,9 @@ namespace APA_API.Core
         public int ID { get; set; }
         public string Location { get; set; }
         public Team HostTeam { get; set; }
+        [Required]
         public Team TeamA { get; set; }
+        [Required]
         public Team TeamB { get; set; }
         public DateTime StartTime { get; set; }
         public DateTime EndTime { get; set; }
