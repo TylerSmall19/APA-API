@@ -6,8 +6,11 @@ namespace APA_API.Core
     public class Team
     {
         public int ID { get; set; }
+
         [Required]
+        [MaxLength(50)]
         public string Name { get; set; }
+
         public int DivisionId { get; set; }
         public int Points { get; set; }
 

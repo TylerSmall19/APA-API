@@ -6,6 +6,7 @@ namespace APA_API.Core
     public class TeamMatch
     {
         public int ID { get; set; }
+        [MaxLength(50)]
         public string Location { get; set; }
         public Team HostTeam { get; set; }
         [Required]
