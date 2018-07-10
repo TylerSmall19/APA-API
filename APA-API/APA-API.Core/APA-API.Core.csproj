@@ -41,8 +41,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Game.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="PlayerMatch.cs" />
+    <Compile Include="SpecialLoss.cs" />
     <Compile Include="Team.cs" />
     <Compile Include="TeamMatch.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
