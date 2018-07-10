@@ -2,9 +2,7 @@
 
 namespace APA_API.Core
 {
-    public class Match
+    public class TeamMatch
     {
-        public int ID { get; set; }
-        
     }
 }
